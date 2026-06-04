@@ -1,10 +1,10 @@
-# 🌊 GLOF Risk Prediction and Visualization System
+## GLOF Risk Prediction and Visualization System
 
 A comprehensive pipeline that extracts geospatial features from remote sensing data, classifies potential Glacial Lake Outburst Flood (GLOF) risk zones, and visualizes multi-class risk maps with elevation contours for real-world application and research.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 GLOF-Risk-System/
@@ -24,7 +24,7 @@ GLOF-Risk-System/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. Fetch Landsat & DEM data
 2. Extract geospatial features: NDWI, NDVI, NDSI, etc.
@@ -35,7 +35,7 @@ GLOF-Risk-System/
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
 This project focuses on satellite and topographic data specific to the **South Lhonak Lake (SLL)** region.
 
@@ -45,7 +45,7 @@ This project focuses on satellite and topographic data specific to the **South L
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
 - **Feature Extraction**: Computes NDWI, NDVI, NDSI, elevation, slope, aspect, and distance to glaciers from satellite and DEM data.
 - **Clustering & Classification**: Uses KMeans clustering to identify patterns and Random Forest for risk classification.
@@ -55,7 +55,7 @@ This project focuses on satellite and topographic data specific to the **South L
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - Python 3.10+
 - Pandas, NumPy
@@ -66,7 +66,7 @@ This project focuses on satellite and topographic data specific to the **South L
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -108,14 +108,14 @@ python glof_risk_visualization.py
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
  - **glof_risk_predictions_2024-25.csv**: Contains predicted risk labels
  - **Risk visualization (PNG/interactive)**: Displays areas as Safe, Moderate, or High Risk
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
  - **Landsat-8**: https://earthexplorer.usgs.gov
  - **DEM (SRTM/ASTER)**: https://search.earthdata.nasa.gov
@@ -123,18 +123,18 @@ python glof_risk_visualization.py
 
 ---
 
-## 👤 Author
+## Author
 
-**Saran P**  
-🎓 B.E. Artificial Intelligence and Machine Learning  
-🏫 Kings Engineering College  
-📧 [8012akashf@gmail.com](mailto:8012akshf@gmail.com)  
-🔗 [LinkedIn](www.linkedin.com/in/saran8) 
-   [GitHub](https://github.com/saran-0077/GLOF-risk-system/tree/main/data) 
+**Johnson Samuel Anand**  
+ B.E. Artificial Intelligence and Machine Learning  
+ Kings Engineering College  
+ [johnsonsamuel2201@gmail.com](mailto:johnsonsamuel2201@gmail.com)  
+ [LinkedIn](https://www.linkedin.com/in/johnson-samuel-anand-3a9453281/) 
+ [GitHub](https://github.com/JOHNSON-07-ai) 
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
  - Andrew Ng's Deep Learning Specialization for foundational ML and DL knowledge.
  - USGS EarthExplorer and NASA Earthdata for providing open-access remote sensing data.
  - RGI (Randolph Glacier Inventory) for glacier outline datasets.
@@ -142,34 +142,34 @@ python glof_risk_visualization.py
 
 ---
 
-## 📄 License
+## License
 
 This project currently has **no license**. As a result, all rights are reserved by the author.
 
 If you'd like to use or adapt this work for academic, research, or commercial purposes, **please contact the author** for permission.
 
-📧 [8012akashf@gmail.com](mailto:8012akashf@gmail.com)
+ [johnsonsamuel2201@gmail.com](mailto:johnsonsamuel2201@gmail.com)
 
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this work in your research, please cite it as:
 
 ```bibtex
 @misc{mirthesh2025glof,
-  author       = {Saran p},
+  author       = {Johnson Samuel Anand P},
   title        = {GLOF Risk Prediction and Visualization System},
   year         = {2025},
-  url          = {https://github.com/saran-0077/GLOF-risk-system/tree/main/data},
+  url          = {https://github.com/JOHNSON-07-ai},
   note         = {A geospatial machine learning pipeline for detecting and visualizing glacial lake outburst flood (GLOF) risks using Landsat, DEM, and Random Forest classification.}
 }
 ```
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
  - Incorporate Sentinel-2 bands for finer resolution
  - Use U-Net or ResNet models for pixel-level segmentation
  - Develop a web-based GLOF risk alert dashboard
